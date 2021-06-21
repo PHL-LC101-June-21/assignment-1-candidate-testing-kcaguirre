@@ -57,7 +57,7 @@ for (let i = 0; i < candidateAnswers.length; i++){
   else answersWrong++;
 }
 
-grade = (answersRight) / (questions.length) * 100;
+grade = (answersRight / questions.length) * 100;
   
 return grade;
 }
