@@ -25,7 +25,7 @@ let correctAnswers = [
 let candidateAnswers = [];
 let answersRight = 0;
 let answersWrong = 0;
-let grade;
+let grade = 0;
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
