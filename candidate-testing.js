@@ -56,8 +56,6 @@ for (let i = 0; i < candidateAnswers.length; i++){
   }
   else answersWrong++;
 }
-console.log(answersRight);
-console.log(questions.length);
 
 grade = (answersRight) / (questions.length) * 100;
   
